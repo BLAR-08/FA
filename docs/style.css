@@ -54,7 +54,7 @@ body {
     height: 50px;
     border-radius: 50%;
     
-    background: radial-gradient(circle, #000, #ff5e00, #000);
+    background: #ff5e00; /* Cambia el color del centro de la flor a naranja sólido */
   
     z-index: 4;
   
@@ -143,4 +143,13 @@ body {
   }
   .Petal3.p4 {
     transform: rotate(157.5deg);
+  }
+
+  /* Agrega un tallo verde a la flor */
+  .stem {
+    position: absolute;
+    bottom: -100px; /* Ajusta la posición vertical del tallo debajo de la flor */
+    height: 100px;
+    width: 10px;
+    background-color: #008000; /* Color verde para el tallo */
   }
